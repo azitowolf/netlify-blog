@@ -4,7 +4,8 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
-import { rhythm } from '../utils/typography'
+import typography from '../utils/typography'
+let { rhythm, scale } = typography
 
 class BlogIndex extends React.Component {
   render() {

@@ -4,7 +4,8 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 
 import Bio from '../components/Bio'
-import { rhythm, scale } from '../utils/typography'
+import typography from '../utils/typography'
+let { rhythm, scale } = typography
 
 class BlogPostTemplate extends React.Component {
   render() {
